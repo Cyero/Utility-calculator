@@ -11,7 +11,7 @@ public static class UserDialog
 
     public static double TariffChecker(double data)
     {
-        Console.WriteLine(" Тарифы указаны верно? \n Введите 'нет' чтобы изменить : \n -> ");
+        Console.WriteLine(" Тарифы указаны верно? \nВведите 'нет' чтобы изменить : ");
         string? answer = Console.ReadLine();
         if (answer?.ToLower() == "нет")
         {
@@ -45,7 +45,7 @@ public static class UserDialog
     {
         try
         {
-            Console.WriteLine(" Укажите текущее значение : \n -> ");
+            Console.WriteLine(" Укажите текущее значение : ");
             double data = Convert.ToDouble(Console.ReadLine());
             return data;
         }
@@ -63,7 +63,7 @@ public static class UserDialog
         {
             try
             {
-                Console.WriteLine(" Данные отсутствуют в БД \n Укажите значение : \n -> ");
+                Console.WriteLine(" Данные отсутствуют в БД \nУкажите значение : ");
                 double userData = Convert.ToDouble(Console.ReadLine());
                 return userData;
             }
