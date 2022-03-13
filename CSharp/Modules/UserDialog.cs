@@ -1,4 +1,5 @@
-namespace UtilityCalculator.Modules;
+namespace UtilityCalculator.Modules
+
 class UserDialog
 {
     private double _water;
